@@ -1,0 +1,14 @@
+{
+  "name": "Math Scratch",
+  "description": "Math practice",
+  "version": "0.1",
+  "manifest_version": 2,
+  "permissions": ["fullscreen"],
+  "app": {
+    "background": {
+      "scripts": ["background.js", "draw.js", "assets/jquery/jquery-3.3.1.min.js"],
+
+    }
+  },
+  "icons": { "16": "math-16.png", "128": "math-128.png" }
+}
